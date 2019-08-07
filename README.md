@@ -1,7 +1,7 @@
 # auto_ssh_utils
 You can connect ssh by use this script without inputting pass {word, phrase}. This script input them for you.
 
-# Install this utils
+## Install this utils
 
 ```
 cd ~/
@@ -25,7 +25,7 @@ finallly, reload .bashrc
 source ~/.bashrc
 ```
 
-#get started
+## get started
 
 first, you create ~/.ssh/config
 
