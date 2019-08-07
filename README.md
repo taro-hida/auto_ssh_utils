@@ -1,7 +1,7 @@
 # auto_ssh_utils
 You can connect ssh by use this script without inputting pass {word, phrase}. This script input them for you.
 
-#Install this utils
+# Install this utils
 
 ```
 cd ~/
@@ -46,16 +46,16 @@ password: google
 finish register
 ```
 
-when you registe ssh infomation, script connect to the remote_host.
-you have to reinput password or passphrase once, if you don't want to do, press <ctrl+C>
+when you registe ssh infomation, script connect to the remote_host. 
+you have to reinput password or passphrase once, if you don't want to do, press <ctrl+C> 
 
-now, you can connect to remote server without password or passphrase. 
+now, you can connect to remote server without password or passphrase.  
 
 ```
 assh my-ubuntu
 ```
 
-if you failed to ssh connect, script show list of that host info.
+if you failed to ssh connect, script show list of that host info. 
 
 ```
 $ assh google-dns    
@@ -68,9 +68,9 @@ Port 22
 #google-dnspasswd google
 ```
 
-if you want to connect, recheck parameter.
+if you want to connect, recheck parameter. 
 
-by the way, you can manage remote_desktop login infomation by use this specification.
-input remote_desktop remote host infomation, and it failed, list parameter.
-
-you only have to copy and paste password:) by use rdp file, you don't have to input remote host address, username.
+by the way, you can manage remote_desktop login infomation by use this specification. 
+input remote_desktop remote host infomation, and it failed, list parameter. 
+ 
+you only have to copy and paste password:) by use rdp file, you don't have to input  remote host address, username. 
