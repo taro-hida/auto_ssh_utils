@@ -11,8 +11,8 @@ echo "alias rssh='sh ~/auto_ssh_utils/rssh.sh'" >> ~/.bashrc
 ```
 ofcourse, you can install to another path you prefered to, and set aliases you prefered to.
 
-and resolve dependencies.
-this script is necessary for colorfull output.
+and resolve dependencies. 
+this script is necessary for colorfull output. 
 -> https://github.com/mercuriev/bash_colors
 
 ```
