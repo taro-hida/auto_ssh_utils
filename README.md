@@ -9,11 +9,11 @@ git clone https://github.com/taro-hida/auto_ssh_utils.git
 echo "alias assh='sh ~/auto_ssh_utils/assh.sh'" >> ~/.bashrc
 echo "alias rssh='sh ~/auto_ssh_utils/rssh.sh'" >> ~/.bashrc
 ```
-ofcourse, you can install to another path you prefered to, and set aliases you prefered to.
+ofcourse, you can install to another path you prefered to, and set aliases you prefered to.  
 
-and resolve dependencies. 
-this script is necessary for colorfull output. 
--> https://github.com/mercuriev/bash_colors
+and resolve dependencies.   
+this "bash_color" script is necessary for colorfull output.   
+-> https://github.com/mercuriev/bash_colors  
 
 ```
 curl https://raw.githubusercontent.com/mercuriev/bash_colors/master/bash_colors.sh > .bash_colors
@@ -33,8 +33,8 @@ first, you create ~/.ssh/config
 touch ~/.ssh/config
 ```
 
-now, you set parameter of remote host.
-For example, to connect to server you named "my-ubuntu": 
+now, you set parameter of remote host.  
+For example, to connect to server you named "my-ubuntu":   
 
 ```
 rssh ubuntu@192.168.2.3
@@ -45,10 +45,10 @@ key path -> []
 password: google
 finish register
 ```
-
-when you registe ssh infomation, script connect to the remote_host. 
-you have to reinput password or passphrase once, if you don't want to do, press <ctrl+C> 
-
+ 
+when you registe ssh infomation, script connect to the remote_host.  
+you have to reinput password or passphrase once, if you don't want to do, press <ctrl+C>  
+ 
 now, you can connect to remote server without password or passphrase.  
 
 ```
@@ -67,10 +67,11 @@ User google
 Port 22
 #google-dnspasswd google
 ```
-
-if you want to connect, recheck parameter. 
-
-by the way, you can manage remote_desktop login infomation by use this specification. 
-input remote_desktop remote host infomation, and it failed, list parameter. 
  
-you only have to copy and paste password:) by use rdp file, you don't have to input  remote host address, username. 
+if you want to connect, recheck parameter.  
+ 
+by the way, you can manage remote_desktop login infomation by use this specification.  
+input remote_desktop remote host infomation, and it failed, list parameter.  
+ 
+you only have to copy and paste password:) by use rdp file, you don't have to input  remote host address, username.  
+ 
